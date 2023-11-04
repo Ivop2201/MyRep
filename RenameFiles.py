@@ -1,10 +1,11 @@
+#This code allows you to quickly rename files with similar names in a specific folder
+
 import os
 import sys
 
-def replace_slashes(file_path):
-    return file_path.replace('\\','/')
+#Use this line to enther the path to the folder
+file_path = replace_slashes('C:/User/Folder...')
 
-file_path = replace_slashes('H:\Claudio\Pagos e Impuestos\ABL/2022')
 
 os.chdir(file_path)
 file_list = os.listdir()
@@ -12,10 +13,8 @@ file_list = os.listdir()
 while True:
     for item in file_list:
         file_name = item
-
-        if file_name[:3] == "Rec":
-            #print(file_name)
-            new_name= "ABL Comprobante 2022_" + file_name [11:13] + ".pdf"
+        if file_name[:4] == "Name": #Here you can specify the characters and in which part of the file name they are
+            new_name = "New name 2022_" + file_name [11:13] + ".pdf"  
             while True:
                 answer = input(f'\nFile {file_name} will be renamed to: {new_name}.\n(Press enter to rename the file) or (Enter 0 to skip this file) or (Enter q to exit program)')
                 if answer == '':
