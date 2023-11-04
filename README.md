@@ -13,7 +13,7 @@ You can find a variety of code snippets and projects in this repository. To use 
 While this repository is primarily for my personal code, I'm open to contributions if you find a bug or have an enhancement in mind. If you'd like to contribute, please check the [Contribution Guidelines](CONTRIBUTING.md) for more information.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the BSD License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 If you have any questions, suggestions, or would like to collaborate, feel free to reach out to me at [your.email@example.com](mailto:your.email@example.com).
