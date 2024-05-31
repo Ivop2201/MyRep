@@ -13,6 +13,6 @@ You can find a variety of code snippets and projects in this repository. To use 
 This project is licensed under the BSD License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-If you have any questions, suggestions, or would like to collaborate, feel free to reach out to me at [ivanporta99@gmail.com](mailto:ivanporta99@gmail.com).
+If you have any questions, suggestions, or would like to collaborate, feel free to reach out to me at [ivanporta99@outlook.com](mailto:ivanporta99@outlook.com).
 
 Thank you for visiting MyRep!
